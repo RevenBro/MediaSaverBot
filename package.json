@@ -1,21 +1,32 @@
 {
   "name": "saqlapro_bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Instagram video va rasmlarni yuklab beruvchi Telegram bot",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js",
-    "dev": "nodemon main.js"
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "telegram",
+    "bot",
+    "save media",
+    "tiktok",
+    "youtube",
+    "media",
+    "instagram",
+    "downloader"
+  ],
+  "author": "Saidakbarovv_A",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.9.0",
     "dotenv": "^16.5.0",
     "node-fetch": "^3.3.2",
     "node-telegram-bot-api": "^0.66.0",
-    "undici": "^7.9.0"
+    "telegraf": "^4.16.3",
+    "undici": "^7.9.0",
+    "yt-dlp-exec": "^1.0.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
